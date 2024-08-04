@@ -1,0 +1,132 @@
+/* Variables start */
+:root {
+	/* Colors */
+	--white: hsl(0, 0%, 100%);
+	--stone-100: hsl(30, 54%, 90%);
+	--stone-150: hsl(30, 18%, 87%);
+	--stone-600: hsl(30, 10%, 34%);
+	--stone-900: hsl(24, 5%, 18%);
+	--brown-800: hsl(14, 45%, 36%);
+	--rose-800: hsl(332, 51%, 32%);
+	--rose-50: hsl(330, 100%, 98%);
+
+	/* Spacing */
+	--space-128: 12.8rem;
+	--space-48: 4.8rem;
+	--space-40: 4rem;
+	--space-32: 3.2rem;
+	--space-24: 2.4rem;
+	--space-16: 1.6rem;
+	--space-12: 1.2rem;
+	--space-8: 0.8rem;
+}
+/* Variables end */
+
+/* introduction start */
+.introduction h1 {
+	margin-bottom: var(--space-24);
+}
+/* introduction end */
+
+/* preparation start */
+.preparation-time {
+	padding: var(--space-24);
+	background-color: var(--rose-50);
+}
+
+.preparation-time h2 {
+	font-family: "Outfit", sans-serif;
+	font-weight: 600;
+	font-size: 2rem;
+	color: var(--rose-800);
+	margin-bottom: var(--space-16);
+}
+
+.preparation-time li::marker {
+	color: var(--rose-800);
+}
+
+.preparation-time li:last-child {
+	margin-bottom: 0;
+}
+
+/* ingredients start */
+
+.ingredients li:last-child {
+	margin-bottom: 0;
+}
+
+/* instructions start */
+.instructions li {
+	line-height: 1.5;
+}
+
+.instructions li:last-child {
+	margin-bottom: 0;
+}
+
+.instructions ol li::marker {
+	font-weight: bold;
+}
+
+/* nutrition start */
+.nutrition > p {
+	margin-bottom: var(--space-24);
+}
+
+.nutrition-info * {
+	min-width: 50%;
+	padding: 0 var(--space-32);
+}
+
+.nutrition-info * :nth-child(even) {
+	font-weight: bold;
+	color: var(--brown-800);
+	padding-left: var(--space-16);
+}
+
+.data {
+	padding: 1.2rem 0;
+	display: flex;
+	flex-direction: row;
+	border-bottom: 0.1rem solid var(--stone-100);
+}
+
+.data:first-child {
+	padding-top: 0;
+}
+
+.data:last-child {
+	padding-bottom: 0;
+	border-bottom: none;
+}
+.attribution {
+	position: absolute;
+	min-width: 100%;
+	text-align: center;
+	font-size: 1rem;
+	left: 0;
+}
+
+/* media queries */
+@media (min-width: 48rem) {
+	body {
+		background-color: var(--stone-100);
+		padding: var(--space-128) var(--space-48);
+	}
+	img {
+		position: static;
+		border-radius: 1.2rem;
+	}
+	main {
+		border-radius: 2.4rem;
+		min-width: 61.6rem;
+		padding: var(--space-40);
+	}
+}
+
+@media (min-width: 90rem) {
+	main {
+		width: 73.6rem;
+	}
+}

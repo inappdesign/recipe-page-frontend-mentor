@@ -1,0 +1,71 @@
+@import url(style.css);
+/* Global values start */
+body {
+	font-family: "Outfit", sans-serif;
+	font-size: 1.6rem;
+	color: var(--stone-600);
+	max-width: 37.5rem;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	margin: auto;
+}
+
+main {
+	min-width: 100%;
+	padding: 17.1rem var(--space-32) var(--space-40);
+	position: relative;
+	background-color: var(--white);
+}
+
+main > * {
+	margin-bottom: var(--space-32);
+}
+
+img {
+	position: absolute;
+	top: 0;
+	left: 0;
+	max-width: 100%;
+}
+
+h1 {
+	font-family: "Young Serif", serif;
+	font-size: 3.6rem;
+	font-weight: 400;
+	color: var(--stone-900);
+	min-width: 100%;
+	line-height: 1;
+}
+
+h2 {
+	font-family: "Young Serif", serif;
+	margin-bottom: var(--space-24);
+	color: var(--brown-800);
+	font-size: 2.8rem;
+	font-weight: 400;
+}
+
+p {
+	line-height: 1.5;
+	max-width: 100%;
+}
+
+hr {
+	/* border: var(--stone-100) solid 0.1rem; */
+	border: none;
+	height: 0.1rem;
+	background-color: var(--stone-100);
+}
+
+li {
+	margin-bottom: var(--space-8);
+	margin-left: var(--space-24);
+	padding-left: var(--space-16);
+}
+
+li::marker {
+	color: var(--brown-800);
+}
+
+/* global values end */
