@@ -49,6 +49,7 @@
 .preparation-time li:last-child {
 	margin-bottom: 0;
 }
+/* preparation end */
 
 /* ingredients start */
 
@@ -68,6 +69,7 @@
 .instructions ol li::marker {
 	font-weight: bold;
 }
+/* instructions end */
 
 /* nutrition start */
 .nutrition > p {
@@ -107,6 +109,7 @@
 	font-size: 1rem;
 	left: 0;
 }
+/* nutrition end */
 
 /* media queries */
 @media (min-width: 48rem) {

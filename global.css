@@ -52,7 +52,6 @@ p {
 }
 
 hr {
-	/* border: var(--stone-100) solid 0.1rem; */
 	border: none;
 	height: 0.1rem;
 	background-color: var(--stone-100);
@@ -67,5 +66,4 @@ li {
 li::marker {
 	color: var(--brown-800);
 }
-
 /* global values end */
