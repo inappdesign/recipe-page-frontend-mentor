@@ -127,6 +127,9 @@
 		min-width: 61.6rem;
 		padding: var(--space-40);
 	}
+	h1 {
+		font-size: 4rem;
+	}
 }
 
 @media (min-width: 90rem) {
